@@ -1,0 +1,169 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: chocolate;
+}
+
+header img {
+    margin-left: 95px;
+    padding: 5px;
+}
+
+main {
+    padding-bottom: 50vh;
+    margin-bottom: 100vh;
+    width: 100%;
+    flex-grow: 1;
+    background-color: burlywood;
+    display: flex;
+    flex: 1 0;
+    justify-content: space-between;
+}
+
+footer {
+    flex-shrink:0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: chocolate;
+    font-size: 25px;
+    text-align: center;
+    color: bisque;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100%;
+    background-color: burlywood;
+    border-radius: 20px;
+}
+
+.seccion_1 {
+    width: 80%;
+    margin-left: 80px;
+}
+
+.seccion_2 {
+    width: 50%;
+    margin-right: 50px;
+}
+
+.contenedor_imagen {
+    width: 100%;
+    height: 60%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contenedor_subtitulo {
+    width: 100%;
+    height: 20%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: -40px;
+}
+
+.contenedor_parrafo {
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.contenedor_textarea {
+    width: 650px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textarea {
+    width: 80%;
+    height: 60%;
+    resize: none;
+    text-align: center;
+    font-size: 25px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 90px;
+    margin-bottom: 10px;
+}
+
+.seccion_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor_imagen {
+    margin-top: 20px;
+}
+
+.contenedor_subtitulo,
+.contenedor_parrafo {
+    text-align: left;
+    margin-top: -10px;
+}
+
+.contenedor_botones {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.boton_encriptar,
+.boton_desencriptar {
+    width: 30%;
+    height: 40px;
+    background-color: chocolate;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin: 0 10px;
+    position: relative;
+    left: -15%;
+}
+
+.boton_encriptar:hover,
+.boton_desencriptar:hover {
+    background-color: burlywood;
+    color: black;
+}
+
+.contenedor_blanco {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+
+
